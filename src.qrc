@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/add.png</file>
+        <file>images/arrow_red.png</file>
+        <file>images/arrow1.png</file>
+        <file>images/arrow64.png</file>
+        <file>images/open.png</file>
+        <file>images/pet.png</file>
+        <file>images/stop.png</file>
+        <file>images/style1028.qss</file>
+        <file>images/style1128.qss</file>
+        <file>images/tcp.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,84 @@
+QLabel{
+    border:1px solid;
+    border-radius:3px;
+    border-color:#0000FF;
+    background-color:rgb(200,200,200);
+}
+
+QLineEdit{
+    background:rgba(0,0,0,0%);
+    border:1px;
+    font:10pt;
+    width:100px;
+}
+
+QLineEdit:hover{
+    background:rgb(174,201,236);
+}
+QLineEdit:!hover{
+    background:rgba(0,0,0,0%);
+}
+QLineEdit:focus{
+    background:white;
+    border-image:none;
+    border:1px groove lightgray;
+    border-radius:2px
+}
+
+QPushButton{
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: #000000;
+    background-color:#A8E7ED;
+    height:24px;
+    width:120px;
+    color:#000000;
+}
+
+QPushButton::hover{
+    background-color:rgb(216,116,19);
+    border-radius:3px;
+}
+
+QGroupBox{
+    /*background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1,
+    stop:0 #E0E0E0, stop: 1 #FFFFFF);*/
+    border:1px solid #141ea1;
+    border-radius:5px;
+    margin-top:2ex;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;/* position at the top center */
+    padding:03px;
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+    stop:0 #A4A4A4, stop: 1 #FFFFFF);
+    color:#0000FF;
+}
+
+QComboBox{
+     border: 1px solid #000000;
+     border-radius: 2px;
+     min-width: 3em;
+     height:20px;
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                             stop: 0 #C0C0C0, stop: 1 #FFFFFF);
+}
+
+QComboBox::down-arrow{
+    border-radius: 2px;
+    image:url(:/qss/arrow_down.png);
+}
+
+QComboBox QAbstractItemView{
+    border: 1px solid #000000;
+    selection-background-color: rgb(216,116,19);
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                            stop: 0 #C0C0C0, stop: 1 #FFFFFF);
+}
+
+QListWidget,QTreeView{
+    border: 1px solid #000000;
+}
